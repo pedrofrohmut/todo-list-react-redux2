@@ -1,4 +1,5 @@
 import React from "react"
+import AddTodoContainer from "./containers/AddTodoContainer"
 import FilterContainer from "./containers/FilterContainer"
 import TodoListContainer from "./containers/TodoListContainer"
 import "./App.css"
@@ -7,10 +8,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        {/*Add Form*/}
-        {/*Filter Container*/}
+        <AddTodoContainer />
         <FilterContainer />
-        {/*Todo List Container*/}
         <TodoListContainer />
       </div>
     </div>
