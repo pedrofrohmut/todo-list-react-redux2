@@ -37,7 +37,7 @@ input[type="checkbox"] {
   top: 2px;
 }
 
-.is-todo-completed {
-  color: #666;
+.is-todo-completed label {
+  color: #ccc;
   text-decoration: line-through;
 }

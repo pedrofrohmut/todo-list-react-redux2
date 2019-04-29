@@ -6,7 +6,7 @@ const TodoList = props => {
   const { todos, onCheck } = props
 
   return (
-    <ul className="list-group text-white">
+    <ul className="list-group text-dark">
       {todos.map((todo, i) => 
         <Todo key={ i } todo={ todo } onCheck={ onCheck } />)}
     </ul>
